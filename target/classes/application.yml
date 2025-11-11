@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: shell
+
+embabel:
+  models:
+    # Change this to a model that exists in your environment.
+    # For OpenAI, examples might be: gpt-4.1-mini, gpt-4.1, gpt-4o, etc.
+    # For Ollama, something like: mistral:latest
+    default-llm: gpt-4.1-mini
+
+logging:
+  level:
+    com.embabel: INFO

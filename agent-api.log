@@ -1,0 +1,18 @@
+1762887249700:the fool
+1762887377154:help
+1762887413672:execute "Say hello to Alice"
+1762887438972:agents
+1762887457344:actions greeting-agent
+1762887467887:call greeting-agent.greet "Say hello to Alice"
+1762888033370:execute "Say hello to Alice"
+1762888107734:execute "Say hello to Alice" -n greeting-agent
+1762888118079:execute "Say hello to Alice" -a com.example.embabeldemo.agent.GreetingAgent.greet
+1762888129855:blackboard
+1762888218520:execute "Say hello to Alice"
+1762888234011:execute "Say hi to Bob" -p
+1762888267527:choose-goal "Say hello to Alice"
+1762888286539:execute --help
+1762888291940:agents
+1762888299635:actions greeting-agent
+1762888302086:goals
+1762888309506:blackboard
